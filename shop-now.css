@@ -1,0 +1,64 @@
+.shopnowbutton {
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(202, 7, 176);
+    margin: 10px;
+    border-radius: 50px;
+    display: inline-flex;
+    margin-top: 5px;
+    padding: 1px;
+    border: none;
+}
+body {
+    background-color: white;
+}
+
+.shop-button {
+    margin-right: 6px;
+}
+.home-button {
+    display: inline-block;
+    color: white;
+    background-color: rgb(202, 7, 176);
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    float: left;
+    
+}
+.home-button:hover,
+.contact-button:hover,
+.shop-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.home-button:active,
+.contact-button:active,
+.shop-button:active {
+    color: rgb(202, 7, 176);
+    background-color: white; 
+}
+.about-page {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    margin-top: 100px;
+    background-color: rgb(245, 239, 241);
+    border-radius: 20px;
+    margin-top: 0px;
+}
+.contact-button,
+.shop-button {
+    display: inline-block;
+    color: white;
+    background-color: rgb(202, 7, 176);
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    float: right;
+}
+.mainwriting {
+    font-size: 30px;
+    text-align: center;
+}
